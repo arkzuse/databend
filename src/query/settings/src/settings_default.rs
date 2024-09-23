@@ -909,6 +909,7 @@ impl DefaultSettings {
                     mode: SettingMode::Both,
                     range: Some(SettingRange::Numeric(0..=u64::MAX)),
                 }),
+
             ]);
 
             Ok(Arc::new(DefaultSettings {
